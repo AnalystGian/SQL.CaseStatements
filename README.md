@@ -5,7 +5,9 @@ This project is for people who are interested in writing conditional statements 
 ## Below are the key objectives of this project:
 
 Understand the function of CASE statements in SQL
+
 Write simple CASE statements
+
 Write complex CASE statements
 
 ## Below is the summary of the tasks performed in this project:
