@@ -4,6 +4,12 @@
 ###############################################################
 ###############################################################
 
+-- In SQL, the CASE statement is a conditional expression that evaluates
+-- a set of conditions and returns a result based on those conditions. It's
+-- useful for performing conditional logic within a query, allowing you to
+-- customize the output based on various conditions. In here, we use the
+-- if-else logic within a query. If a condition is met, return a particular
+-- value. Otherwise, return another value.
 
 #############################
 -- Task One: The SQL CASE Statement
@@ -77,6 +83,11 @@ FROM employees;
 -- In this task, we will see how to use the CASE clause and
 -- SQL aggregate functions to retrieve data
 #############################
+
+-- In SQL, you can use the CASE statement in conjunction with aggregate functions
+-- to perform conditional calculations on groups of rows. This allows you to
+-- customize the result of aggregate functions based on specific conditions within
+-- each group.
 
 -- 3.1: Retrieve the average salary of all employees
 SELECT * FROM salaries;
@@ -280,6 +291,10 @@ LIMIT 100;
 -- In this task, we will learn how to use the SQL CASE statement to
 -- transpose retrieved data
 #############################
+
+-- In SQL, you can transpose data using the CASE statement combined with aggregate functions
+-- and conditional logic to pivot rows into columns. This technique allows you to restructure
+-- your data from a vertical format (rows) to a horizontal format (columns).
 
 -- 6.1: Retrieve all the data from the sales table
 SELECT * FROM sales;
